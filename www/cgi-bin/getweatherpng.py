@@ -15,7 +15,7 @@ import time
 import thingspeak
 
 
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
 
 from conf.settings import *
 
