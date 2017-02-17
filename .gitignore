@@ -4,5 +4,3 @@ __pycache__/
 *$py.class
 .idea/
 conf/private_settings.py
-db/*.dat
-tmp/*.png
