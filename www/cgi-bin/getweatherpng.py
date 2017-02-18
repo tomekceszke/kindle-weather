@@ -14,13 +14,11 @@ import feedparser
 import time
 import thingspeak
 
-
 sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
 
 from conf.settings import *
 
 __author__ = 'Tomasz Ceszke'
-
 
 cgitb.enable()
 
@@ -99,7 +97,6 @@ def png_render():
         font-size 90 text 170,630 '{3}°C' \
         \" -depth 8 -type GrayScale {0}".format(png_file, get_time(), get_temp(temperature_out_field), get_temp(temperature_bedroom_field))
     os.popen(cmd)
-
 
 
 def main():
