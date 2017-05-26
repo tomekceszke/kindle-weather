@@ -10,7 +10,7 @@ http://demo.ceszke.com/kindle-weather/
 ## Run
 
 #### backend
-* you will need some www server, python (tested on 2.7) and imagemagic
+* you will need any www server, python (tested on 2.7) and imagemagic
 * install following pythons's packages: thingspeak and feedparser
 * clone the code and make sure that dirs&files have appropriate permissions
 * adapt [conf/settings.py](conf/settings.py)
