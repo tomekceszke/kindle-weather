@@ -6,9 +6,8 @@ database = root_dir+"db/data.dat"
 
 openweathermap_url = "http://api.openweathermap.org/data/2.5/forecast?id=7531634&APPID=" + openweathermap_apikey
 
-temperature_channel_id = 107384
-temperature_out_field = 'field2'
-temperature_bedroom_field = 'field4'
+in_channel_id = 107384
+out_channel_id = 313353
 
 feed_url = "http://www.rmf24.pl/fakty/feed"
 feed_wrapping = 55
