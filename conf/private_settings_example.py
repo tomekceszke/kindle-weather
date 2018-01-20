@@ -1,1 +1,0 @@
-openweathermap_apikey=''
